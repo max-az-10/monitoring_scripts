@@ -118,7 +118,7 @@ sudo crontab -u username -l
 */5 * * * * command
 
 ## Every minute
-* * * * * command
+* * * * * command  or * * * * * command
 
 ## Every hour
 0 * * * * command
