@@ -95,41 +95,41 @@ Repository: https://github.com/max-az-10/monitoring_scripts.git
 
 ## Crontab for cron job
 
-## review
+## Review
 
-# Edit your cron jobs
+#Edit your cron jobs
 crontab -e
 
-# List your cron jobs
+#List your cron jobs
 crontab -l
 
-# Remove all cron jobs
+#Remove all cron jobs
 crontab -r
 
-# Edit another user's crontab (requires sudo)
+#Edit another user's crontab (requires sudo)
 sudo crontab -u username -e
 
-# List another user's cron jobs
+#List another user's cron jobs
 sudo crontab -u username -l
 
-### Common cron schedules
+# Common cron schedules
 
-# Every 5 minutes
+#Every 5 minutes
 */5 * * * * command
 
-# Every minute
+#Every minute
 * * * * * command
 
-# Every hour
+#Every hour
 0 * * * * command
 
-# Every day at 2:00 AM
+#Every day at 2:00 AM
 0 2 * * * command
 
-# Every day at 6:30 AM
+#Every day at 6:30 AM
 30 6 * * * command
 
-# Every Sunday at midnight
+#Every Sunday at midnight
 0 0 * * 0 command
 
 ``` text
