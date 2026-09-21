@@ -114,22 +114,22 @@ sudo crontab -u username -l
 
 # Common cron schedules
 
-#Every 5 minutes
+## Every 5 minutes
 */5 * * * * command
 
-#Every minute
+## Every minute
 * * * * * command
 
-#Every hour
+## Every hour
 0 * * * * command
 
-#Every day at 2:00 AM
+## Every day at 2:00 AM
 0 2 * * * command
 
-#Every day at 6:30 AM
+## Every day at 6:30 AM
 30 6 * * * command
 
-#Every Sunday at midnight
+## Every Sunday at midnight
 0 0 * * 0 command
 
 ``` text
