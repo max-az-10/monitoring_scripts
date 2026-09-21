@@ -89,5 +89,7 @@ Max A.
 Graduate Student/ Linux Engineer/ DevOps Engineer
 
 GitHub: https://github.com/max-az-10
-Repository:
+
+Repository: https://github.com/max-az-10/monitoring_scripts.git
+
 
