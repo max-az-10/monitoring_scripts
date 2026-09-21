@@ -12,7 +12,7 @@ sends an email alert when a threshold is exceeded.
 - Designed to run on a schedule via `cron`
 
 ## Project structure
-
+```text
 monitoring_scripts/
 ├── cpu_monitor.sh        # Checks CPU usage
 ├── memory_monitor.sh     # Checks memory usage
@@ -22,6 +22,7 @@ monitoring_scripts/
 ├── config.env.example    # Template for thresholds/email config
 ├── .gitignore            # Excludes secrets and logs from git
 └── logs/                 # Runtime logs (not committed)
+```
 
 ## Setup
 
