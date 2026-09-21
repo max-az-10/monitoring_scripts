@@ -97,19 +97,19 @@ Repository: https://github.com/max-az-10/monitoring_scripts.git
 
 ## Review
 
-#Edit your cron jobs
+## Edit your cron jobs
 crontab -e
 
-#List your cron jobs
+## List your cron jobs
 crontab -l
 
-#Remove all cron jobs
+## Remove all cron jobs
 crontab -r
 
-#Edit another user's crontab (requires sudo)
+## Edit another user's crontab (requires sudo)
 sudo crontab -u username -e
 
-#List another user's cron jobs
+## List another user's cron jobs
 sudo crontab -u username -l
 
 # Common cron schedules
